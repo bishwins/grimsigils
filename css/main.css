@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+body
+{
+    background-color: black;
+    font-size: small;
+    font-family: "Jost", sans-serif;
+}
+
+main
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: 20px;
+}
+
+main div
+{
+    background-color: red;
+}
+
+
+main div img {
+    width: 100%;
+}
