@@ -59,7 +59,17 @@ h2
 
 header p
 {
-    font-size: small;
+    font-size: medium;
+}
+
+header#title
+{
+text-align: center;
+}
+
+label
+{
+text-align: right;
 }
 
 header#title p
